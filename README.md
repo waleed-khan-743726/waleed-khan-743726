@@ -1,5 +1,5 @@
 # 💫 About Me:
-- Aspiring Data Scientist | Student | Entrepreneur | Talks about <br>#python #DataScience #DataAnalysis #Business #Crypto<br> #CryptoCurrency #TradingStocks #Machinelearning
+Freelance Data Analyst & Machine learning Expert | Certified Data Analyst | Provide Data Driven Insights & Make Machine Learning Models that increase brand awareness, improve costumers retention and help businesses grow.
 
 
 ## 🌐 Socials:
