@@ -1,5 +1,25 @@
 # 💫 About Me:
-Freelance Data Analyst & Machine learning Expert | Certified Data Analyst | Provide Data Driven Insights & Make Machine Learning Models that increase brand awareness, improve costumers retention and help businesses grow.
+As a passionate Data Analyst and Computer Science student, I am actively seeking remote and on-site internships or entry-level roles where I can apply my growing expertise in data science, analytics, and machine learning.
+
+I have hands-on experience in Python programming, data preprocessing, machine learning, and data visualization. My journey includes:
+
+Building a content-based movie recommendation system, complete with a working web interface.
+
+Cleaning and preprocessing real-world datasets, such as a car dataset from Kaggle, focusing on outlier detection, handling missing values, and feature engineering.
+
+Creating an interactive Power BI dashboard for property dealers to present insightful KPIs to investors.
+
+Developing a weather app in React Native using the OpenWeatherMap API.
+
+Interning at uCapacity (NASTP), where I contributed to data-driven tasks in a real-world environment.
+
+I’ve received mentorship from reputable communities like Codanics and Dice Analytics, where I strengthened my foundation in machine learning and object detection. I'm also working on a professional-level project for local price forecasting of basic commodities.
+
+With a strong commitment to learning, I continuously stay updated with the latest tools and best practices in the data industry. I'm proficient in tools and languages like Python, Pandas, Scikit-learn, Power BI, SQL, React Native, and more.
+
+If you're seeking a motivated, curious, and reliable data enthusiast who thrives on challenges, let’s connect! I'm eager to collaborate, contribute to impactful projects, and grow alongside industry professionals.
+
+📩 Feel free to message me—I'm always open to exciting opportunities!
 
 
 ## 🌐 Socials:
