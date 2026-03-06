@@ -1,5 +1,5 @@
 # 💫 About Me:
-As a passionate Data Analyst and Computer Science student, I am actively seeking remote and on-site internships or entry-level roles where I can apply my growing expertise in data science, analytics, and machine learning.
+As a passionate Data Analyst and Computer Science student, I am actively seeking remote and on-site entry-level roles where I can apply my growing expertise in data science, analytics, and machine learning.
 
 I have hands-on experience in Python programming, data preprocessing, machine learning, and data visualization. My journey includes:
 
