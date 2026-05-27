@@ -1,47 +1,136 @@
-# 💫 About Me:
-As an AI Engineer and Computer Science student, I am actively seeking remote and on-site entry-level roles where I can apply my growing expertise in data science, analytics, and machine learning.
+💫 About Me
 
-I have hands-on experience in Python programming, data preprocessing, machine learning, and data visualization. My journey includes:
+AI Engineer focused on building real-world intelligent systems that combine machine learning, deep learning, computer vision, voice AI, and automation into production-ready workflows.
 
-Building a content-based movie recommendation system, complete with a working web interface.
+My work centers around designing AI systems that operate beyond notebooks — systems that can process live data, interact with users in real time, automate decisions, and integrate with real infrastructure.
 
-Cleaning and preprocessing real-world datasets, such as a car dataset from Kaggle, focusing on outlier detection, handling missing values, and feature engineering.
+I’ve worked across the full AI pipeline including:
 
-Creating an interactive Power BI dashboard for property dealers to present insightful KPIs to investors.
+data collection and preprocessing
+model training and evaluation
+deep learning architectures
+inference optimization
+backend integration
+API development
+deployment and orchestration
 
-Developing a weather app in React Native using the OpenWeatherMap API.
+I currently work heavily with:
 
-Interning at uCapacity (NASTP), where I contributed to data-driven tasks in a real-world environment.
+Deep Learning
+Neural Networks
+Large Language Models (LLMs)
+Retrieval-Augmented Generation (RAG)
+Real-Time Computer Vision
+Speech AI & Voice Systems
+Automation Pipelines
+Agentic AI Systems
 
-I’ve received mentorship from reputable communities like Codanics and Dice Analytics, where I strengthened my foundation in machine learning and object detection. I'm also working on a professional-level project for local price forecasting of basic commodities.
+One of my primary areas of interest is Voice AI engineering, where I’m building human-like conversational calling systems using technologies such as:
 
-With a strong commitment to learning, I continuously stay updated with the latest tools and best practices in the data industry. I'm proficient in tools and languages like Python, Pandas, Scikit-learn, Power BI, SQL, React Native, and more.
+Whisper (speech recognition)
+Fish Speech
+Text-to-Speech (TTS)
+Real-time audio pipelines
+Intent handling systems
+Conversational orchestration
+Low-latency inference systems
 
-If you're seeking a motivated, curious, and reliable data enthusiast who thrives on challenges, let’s connect! I'm eager to collaborate, contribute to impactful projects, and grow alongside industry professionals.
+I’m also developing autonomous AI-driven systems using YOLOv8, OpenCV, PyTorch, TensorFlow, and multimodal AI workflows for real-time detection, tracking, and decision-making applications.
 
-📩 Feel free to message me—I'm always open to exciting opportunities!
+My engineering workflow includes:
 
+Python
+PyTorch
+TensorFlow
+Hugging Face
+Docker
+Git & GitHub
+CI/CD Pipelines
+Flask APIs
+Oracle Cloud Infrastructure (OCI)
+Workflow orchestration
+Backend automation systems
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/muhammad-waleed-73b414237/) 
+Projects I’ve worked on include:
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black) ![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=waleed-khan-743726&theme=onedark&hide_border=true&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=waleed-khan-743726&theme=onedark&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=waleed-khan-743726&theme=onedark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+AI-powered autonomous drone systems
+Real-time human detection and tracking
+Voice emotion recognition systems
+AI calling/voice agent architectures
+Recommendation systems
+Data automation pipelines
+Interactive AI deployment interfaces
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=waleed-khan-743726&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+I enjoy solving engineering problems where AI has to operate in practical environments under real constraints like latency, scalability, reliability, and automation.
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=light)
+Currently exploring:
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=waleed-khan-743726&limit=5&theme=dark&combine_all_yearly_contributions=true)
+Agentic AI systems
+Scalable voice infrastructure
+Multimodal AI
+Reinforcement learning workflows
+AI orchestration frameworks
+Production-grade AI deployment pipelines
+🌐 Connect With Me
+LinkedIn
+GitHub
+⚡ Tech Stack
+Languages & Core Development
 
----
-[![](https://visitcount.itsvg.in/api?id=waleed-khan-743726&icon=5&color=0)](https://visitcount.itsvg.in)
+Python SQL C++ Java
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+AI / Machine Learning
+
+PyTorch TensorFlow Scikit-Learn Hugging Face Transformers
+Deep Learning Neural Networks
+LLMs RAG Systems
+Reinforcement Learning
+Feature Engineering
+
+Computer Vision & Multimodal AI
+
+OpenCV
+YOLOv8
+Real-Time Object Detection
+Tracking Systems
+Multimodal AI
+
+Voice AI & Speech Systems
+
+Whisper
+Fish Speech
+TTS Systems
+Speech Processing
+Voice Pipelines
+Audio Intelligence
+
+Backend & Infrastructure
+
+Flask
+REST APIs
+Docker
+CI/CD Pipelines
+Git
+GitHub
+Oracle Cloud Infrastructure
+Automation Frameworks
+
+Data & Analytics
+
+Pandas
+NumPy
+Power BI
+Tableau
+Data Visualization
+
+📌 Current Focus
+
+Building production-oriented AI systems that combine:
+
+voice intelligence
+real-time AI inference
+automation
+multimodal understanding
+scalable deployment infrastructure
+
+Especially interested in AI systems that interact with humans naturally through speech, vision, and autonomous decision-making.
