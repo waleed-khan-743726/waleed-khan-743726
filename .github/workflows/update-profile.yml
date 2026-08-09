@@ -1,0 +1,484 @@
+name: Update GitHub Profile
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+
+  update-profile:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate profile SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: waleed-khan-743726
+        run: |
+
+          python - <<'PY'
+
+          import os
+          import json
+          import urllib.request
+          import urllib.parse
+          import base64
+          from collections import Counter
+
+          username = os.environ["GITHUB_USERNAME"]
+          token = os.environ["GITHUB_TOKEN"]
+
+          headers = {
+              "Authorization": f"Bearer {token}",
+              "Accept": "application/vnd.github+json",
+              "User-Agent": "github-profile-generator"
+          }
+
+
+          def github_api(url):
+
+              request = urllib.request.Request(
+                  url,
+                  headers=headers
+              )
+
+              with urllib.request.urlopen(request) as response:
+                  return json.loads(response.read().decode())
+
+
+          # =========================================================
+          # USER
+          # =========================================================
+
+          user = github_api(
+              f"https://api.github.com/users/{username}"
+          )
+
+          repositories = user["public_repos"]
+          followers = user["followers"]
+          following = user["following"]
+
+
+          # =========================================================
+          # REPOSITORIES / STARS / LANGUAGES
+          # =========================================================
+
+          repos = github_api(
+              f"https://api.github.com/users/{username}/repos?per_page=100&sort=updated"
+          )
+
+          stars = 0
+          languages = Counter()
+
+          for repo in repos:
+
+              stars += repo.get("stargazers_count", 0)
+
+              try:
+
+                  lang_data = github_api(
+                      repo["languages_url"]
+                  )
+
+                  for language, amount in lang_data.items():
+                      languages[language] += amount
+
+              except Exception:
+                  pass
+
+
+          total_language_bytes = sum(languages.values())
+
+
+          # =========================================================
+          # GITHUB GRAPHQL
+          # =========================================================
+
+          query = """
+          query($login:String!) {
+
+            user(login:$login) {
+
+              contributionsCollection {
+
+                contributionCalendar {
+
+                  totalContributions
+
+                  weeks {
+
+                    contributionDays {
+
+                      date
+                      contributionCount
+                      contributionLevel
+
+                    }
+
+                  }
+
+                }
+
+              }
+
+            }
+
+          }
+          """
+
+          payload = json.dumps({
+              "query": query,
+              "variables": {
+                  "login": username
+              }
+          }).encode()
+
+
+          request = urllib.request.Request(
+              "https://api.github.com/graphql",
+              data=payload,
+              headers={
+                  **headers,
+                  "Content-Type": "application/json"
+              },
+              method="POST"
+          )
+
+          with urllib.request.urlopen(request) as response:
+
+              graphql = json.loads(
+                  response.read().decode()
+              )
+
+
+          calendar = (
+              graphql["data"]
+              ["user"]
+              ["contributionsCollection"]
+              ["contributionCalendar"]
+          )
+
+
+          total_contributions = calendar["totalContributions"]
+
+
+          # =========================================================
+          # SVG ESCAPE
+          # =========================================================
+
+          def esc(value):
+
+              return (
+                  str(value)
+                  .replace("&", "&amp;")
+                  .replace("<", "&lt;")
+                  .replace(">", "&gt;")
+                  .replace('"', "&quot;")
+              )
+
+
+          # =========================================================
+          # UPDATE REAL NUMBERS IN SVG
+          # =========================================================
+
+          with open("profile.svg", "r", encoding="utf-8") as f:
+
+              svg = f.read()
+
+
+          replacements = {
+
+              ">15<":
+                  f">{repositories}<",
+
+              ">1<":
+                  f">{followers}<",
+
+              ">2<":
+                  f">{following}<",
+
+              ">0<":
+                  f">{stars}<"
+
+          }
+
+
+          # Only replace the exact static profile values.
+          # More advanced sections are generated below.
+
+
+          svg = svg.replace(
+              '<text id="repos"',
+              '<text id="repos"'
+          )
+
+
+          # =========================================================
+          # TARGETED REPLACEMENTS
+          # =========================================================
+
+          svg = svg.replace(
+              '<text id="repos"',
+              '<text id="repos"'
+          )
+
+
+          # Replace visible metric values by their unique surrounding
+          # strings rather than globally replacing numbers.
+
+          svg = svg.replace(
+              '<text id="repos"\n      x="60" y="428"\n      font-family="monospace"\n      font-size="29"\n      font-weight="bold"\n      fill="#7ffff0">\n    15',
+              f'''<text id="repos"
+      x="60" y="428"
+      font-family="monospace"
+      font-size="29"
+      font-weight="bold"
+      fill="#7ffff0">
+    {repositories}'''
+          )
+
+
+          svg = svg.replace(
+              '<text x="690" y="428"\n      font-family="monospace"\n      font-size="29"\n      font-weight="bold"\n      fill="#65a2ff">\n    0',
+              f'''<text x="690" y="428"
+      font-family="monospace"
+      font-size="29"
+      font-weight="bold"
+      fill="#65a2ff">
+    {stars}'''
+          )
+
+
+          svg = svg.replace(
+              '<text x="64" y="1029"\n      font-family="monospace"\n      font-size="35"\n      font-weight="bold"\n      fill="#00d9c0">\n    15',
+              f'''<text x="64" y="1029"
+      font-family="monospace"
+      font-size="35"
+      font-weight="bold"
+      fill="#00d9c0">
+    {repositories}'''
+          )
+
+
+          svg = svg.replace(
+              '<text x="286" y="1029"\n      font-family="monospace"\n      font-size="35"\n      font-weight="bold"\n      fill="#a990ff">\n    0',
+              f'''<text x="286" y="1029"
+      font-family="monospace"
+      font-size="35"
+      font-weight="bold"
+      fill="#a990ff">
+    {stars}'''
+          )
+
+
+          svg = svg.replace(
+              '<text x="508" y="1029"\n      font-family="monospace"\n      font-size="35"\n      font-weight="bold"\n      fill="#61a1ff">\n    1',
+              f'''<text x="508" y="1029"
+      font-family="monospace"
+      font-size="35"
+      font-weight="bold"
+      fill="#61a1ff">
+    {followers}'''
+          )
+
+
+          svg = svg.replace(
+              '<text x="730" y="1029"\n      font-family="monospace"\n      font-size="35"\n      font-weight="bold"\n      fill="#69fff0">\n    2',
+              f'''<text x="730" y="1029"
+      font-family="monospace"
+      font-size="35"
+      font-weight="bold"
+      fill="#69fff0">
+    {following}'''
+          )
+
+
+          # =========================================================
+          # PROFILE SCAN VALUES
+          # =========================================================
+
+          svg = svg.replace(
+              '''<text x="690" y="1780"
+      font-family="monospace"
+      font-size="12"
+      fill="#7ffff0">
+    15''',
+              f'''<text x="690" y="1780"
+      font-family="monospace"
+      font-size="12"
+      fill="#7ffff0">
+    {repositories}'''
+          )
+
+
+          svg = svg.replace(
+              '''<text x="690" y="1814"
+      font-family="monospace"
+      font-size="12"
+      fill="#7ffff0">
+    1''',
+              f'''<text x="690" y="1814"
+      font-family="monospace"
+      font-size="12"
+      fill="#7ffff0">
+    {followers}'''
+          )
+
+
+          svg = svg.replace(
+              '''<text x="690" y="1848"
+      font-family="monospace"
+      font-size="12"
+      fill="#7ffff0">
+    2''',
+              f'''<text x="690" y="1848"
+      font-family="monospace"
+      font-size="12"
+      fill="#7ffff0">
+    {following}'''
+          )
+
+
+          svg = svg.replace(
+              '''<text x="690" y="1882"
+      font-family="monospace"
+      font-size="12"
+      fill="#7ffff0">
+    0''',
+              f'''<text x="690" y="1882"
+      font-family="monospace"
+      font-size="12"
+      fill="#7ffff0">
+    {stars}'''
+          )
+
+
+          # =========================================================
+          # LANGUAGE BARS
+          # =========================================================
+
+          top_languages = languages.most_common(5)
+
+          if total_language_bytes:
+
+              language_percentages = [
+                  (
+                      name,
+                      amount / total_language_bytes * 100
+                  )
+                  for name, amount in top_languages
+              ]
+
+          else:
+
+              language_percentages = []
+
+
+          # Existing visual labels remain fixed, but widths are updated
+          # from actual repository language data.
+
+          bar_positions = [
+              1267,
+              1307,
+              1347,
+              1387,
+              1427
+          ]
+
+          colors = [
+              "#ff7b00",
+              "#ffe45c",
+              "#65a2ff",
+              "#ff5d58",
+              "#b57dff"
+          ]
+
+          for i, (_, percentage) in enumerate(
+              language_percentages
+          ):
+
+              width = max(
+                  8,
+                  int(680 * percentage / 100)
+              )
+
+              old_width = [
+                  530,
+                  100,
+                  75,
+                  55,
+                  42
+              ][i]
+
+              old_color = colors[i]
+
+              old = (
+                  f'x="210" y="{bar_positions[i]}" '
+                  f'width="{old_width}" height="12" rx="6" '
+                  f'fill="{old_color}"/>'
+              )
+
+              new = (
+                  f'x="210" y="{bar_positions[i]}" '
+                  f'width="{width}" height="12" rx="6" '
+                  f'fill="{old_color}"/>'
+              )
+
+              svg = svg.replace(old, new)
+
+
+          # =========================================================
+          # WRITE
+          # =========================================================
+
+          with open(
+              "profile.svg",
+              "w",
+              encoding="utf-8"
+          ) as f:
+
+              f.write(svg)
+
+          print(
+              "Profile updated:",
+              repositories,
+              "repositories,",
+              followers,
+              "followers,",
+              following,
+              "following,",
+              stars,
+              "stars,",
+              total_contributions,
+              "contributions"
+          )
+
+          PY
+
+
+      - name: Commit profile
+        run: |
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile.svg
+
+          git diff --cached --quiet || \
+            git commit -m "chore: update GitHub profile"
+
+          git push
