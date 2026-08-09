@@ -1,0 +1,892 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1000"
+     height="2180"
+     viewBox="0 0 1000 2180">
+
+<defs>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#061f1e"/>
+        <stop offset="50%" stop-color="#0a3835"/>
+        <stop offset="100%" stop-color="#041918"/>
+    </linearGradient>
+
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#0c4a45"/>
+        <stop offset="55%" stop-color="#07312f"/>
+        <stop offset="100%" stop-color="#062422"/>
+    </linearGradient>
+
+    <linearGradient id="panel2" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#0c4541"/>
+        <stop offset="100%" stop-color="#062522"/>
+    </linearGradient>
+
+    <linearGradient id="cyanGlow" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#00d9c0"/>
+        <stop offset="50%" stop-color="#69fff0"/>
+        <stop offset="100%" stop-color="#00a995"/>
+    </linearGradient>
+
+    <linearGradient id="blueBar">
+        <stop offset="0%" stop-color="#4b7dff"/>
+        <stop offset="100%" stop-color="#64a4ff"/>
+    </linearGradient>
+
+    <linearGradient id="purpleBar">
+        <stop offset="0%" stop-color="#8664ff"/>
+        <stop offset="100%" stop-color="#bb91ff"/>
+    </linearGradient>
+
+    <filter id="glow">
+        <feGaussianBlur stdDeviation="5" result="blur"/>
+        <feMerge>
+            <feMergeNode in="blur"/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+
+    <filter id="softGlow">
+        <feGaussianBlur stdDeviation="12"/>
+    </filter>
+
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+        <rect width="18" height="18" rx="2" fill="#0b403d"/>
+    </pattern>
+
+    <clipPath id="avatarClip">
+        <circle cx="74" cy="72" r="48"/>
+    </clipPath>
+
+</defs>
+
+<!-- ========================================================= -->
+<!-- BACKGROUND                                                 -->
+<!-- ========================================================= -->
+
+<rect width="1000" height="2180" fill="#ffffff"/>
+
+<!-- ========================================================= -->
+<!-- HEADER                                                     -->
+<!-- ========================================================= -->
+
+<rect x="18" y="18"
+      width="964" height="220"
+      rx="22"
+      fill="url(#bg)"
+      stroke="#08776d"
+      stroke-width="3"/>
+
+<rect x="34" y="34"
+      width="932" height="188"
+      rx="17"
+      fill="none"
+      stroke="#0b655e"
+      stroke-width="1"/>
+
+<!-- glow -->
+<ellipse cx="760" cy="95"
+         rx="260" ry="100"
+         fill="#00c9b5"
+         opacity=".07"
+         filter="url(#softGlow)"/>
+
+<!-- avatar -->
+<circle cx="74" cy="72" r="50"
+        fill="#061f1e"
+        stroke="#6ffff0"
+        stroke-width="2"/>
+
+<!-- Replace by generated avatar through workflow -->
+<text x="74"
+      y="82"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="28"
+      fill="#7ffff0">MW</text>
+
+<!-- username -->
+<text x="140"
+      y="50"
+      font-family="monospace"
+      font-size="16"
+      font-weight="bold"
+      fill="#72ffe9">
+    @waleed-khan-743726
+</text>
+
+<!-- name -->
+<text x="140"
+      y="91"
+      font-family="Arial, sans-serif"
+      font-size="42"
+      font-weight="800"
+      fill="#e5fffb">
+    MUHAMMAD WALEED
+</text>
+
+<!-- role -->
+<text x="140"
+      y="119"
+      font-family="monospace"
+      font-size="16"
+      fill="#7ffff0">
+    AI Engineer
+</text>
+
+<!-- tagline -->
+<text x="140"
+      y="147"
+      font-family="monospace"
+      font-size="12"
+      fill="#a8dcd5">
+    Voice AI • LLMs • Deep Learning • Real-Time AI Systems • Automation
+</text>
+
+<!-- mini buttons -->
+<rect x="140" y="170" width="92" height="28" rx="8"
+      fill="#062c2a" stroke="#138b80"/>
+
+<text x="186" y="188"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="10"
+      fill="#aafff3">
+    GitHub
+</text>
+
+<rect x="240" y="170" width="92" height="28" rx="8"
+      fill="#062c2a" stroke="#138b80"/>
+
+<text x="286" y="188"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="10"
+      fill="#aafff3">
+    LinkedIn
+</text>
+
+<rect x="340" y="170" width="82" height="28" rx="8"
+      fill="#062c2a" stroke="#138b80"/>
+
+<text x="381" y="188"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="10"
+      fill="#aafff3">
+    Python
+</text>
+
+<rect x="430" y="170" width="72" height="28" rx="8"
+      fill="#062c2a" stroke="#138b80"/>
+
+<text x="466" y="188"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="10"
+      fill="#aafff3">
+    AI
+</text>
+
+<!-- ========================================================= -->
+<!-- SOCIAL LABEL                                               -->
+<!-- ========================================================= -->
+
+<text x="500"
+      y="270"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="19"
+      fill="#101b1b">
+    GitHub · X
+</text>
+
+<!-- ========================================================= -->
+<!-- HIGHLIGHTS                                                  -->
+<!-- ========================================================= -->
+
+<rect x="18" y="292"
+      width="964" height="190"
+      rx="22"
+      fill="url(#panel)"
+      stroke="#08776d"
+      stroke-width="3"/>
+
+<text x="45" y="330"
+      font-family="monospace"
+      font-size="12"
+      font-weight="bold"
+      fill="#6ffff0">
+    HIGHLIGHTS
+</text>
+
+<text x="45" y="350"
+      font-family="monospace"
+      font-size="9"
+      fill="#8ebdb8">
+    REAL-TIME GITHUB PROFILE DATA
+</text>
+
+<!-- cards -->
+
+<rect x="42" y="370" width="286" height="82"
+      rx="12"
+      fill="#062a28"
+      stroke="#0b8177"/>
+
+<text x="60" y="392"
+      font-family="monospace"
+      font-size="10"
+      fill="#8ddbd3">
+    Repositories
+</text>
+
+<text id="repos"
+      x="60" y="428"
+      font-family="monospace"
+      font-size="29"
+      font-weight="bold"
+      fill="#7ffff0">
+    15
+</text>
+
+<text x="60" y="443"
+      font-family="monospace"
+      font-size="8"
+      fill="#5faaa3">
+    PUBLIC REPOSITORIES
+</text>
+
+
+<rect x="357" y="370" width="286" height="82"
+      rx="12"
+      fill="#062a28"
+      stroke="#0b8177"/>
+
+<text x="375" y="392"
+      font-family="monospace"
+      font-size="10"
+      fill="#8ddbd3">
+    Following
+</text>
+
+<text x="375" y="428"
+      font-family="monospace"
+      font-size="29"
+      font-weight="bold"
+      fill="#a990ff">
+    2
+</text>
+
+<text x="375" y="443"
+      font-family="monospace"
+      font-size="8"
+      fill="#5faaa3">
+    ACCOUNTS FOLLOWED
+</text>
+
+
+<rect x="672" y="370" width="286" height="82"
+      rx="12"
+      fill="#062a28"
+      stroke="#0b8177"/>
+
+<text x="690" y="392"
+      font-family="monospace"
+      font-size="10"
+      fill="#8ddbd3">
+    Stars
+</text>
+
+<text x="690" y="428"
+      font-family="monospace"
+      font-size="29"
+      font-weight="bold"
+      fill="#65a2ff">
+    0
+</text>
+
+<text x="690" y="443"
+      font-family="monospace"
+      font-size="8"
+      fill="#5faaa3">
+    TOTAL REPOSITORY STARS
+</text>
+
+<!-- ========================================================= -->
+<!-- YEAR                                                        -->
+<!-- ========================================================= -->
+
+<text x="18"
+      y="525"
+      font-family="Arial"
+      font-size="20"
+      fill="#111b1b">
+    The year, so far
+</text>
+
+<rect x="18" y="545"
+      width="964"
+      height="270"
+      rx="22"
+      fill="url(#panel2)"
+      stroke="#08776d"
+      stroke-width="3"/>
+
+<text x="45" y="580"
+      font-family="monospace"
+      font-size="15"
+      font-weight="bold"
+      fill="#e5fffb">
+    Contribution Activity
+</text>
+
+<text x="45" y="598"
+      font-family="monospace"
+      font-size="9"
+      fill="#76b9b1">
+    github.com/waleed-khan-743726
+</text>
+
+<!-- contribution grid -->
+
+<g transform="translate(45,625)" id="contribution-grid">
+
+    <rect width="850" height="150"
+          fill="url(#grid)"
+          opacity=".9"/>
+
+    <!-- sample activity cells; replaced by workflow -->
+
+    <rect x="25" y="110" width="18" height="18" rx="3"
+          fill="#00bbaa"/>
+
+    <rect x="245" y="80" width="18" height="18" rx="3"
+          fill="#08776d"/>
+
+    <rect x="420" y="55" width="18" height="18" rx="3"
+          fill="#00c9b5"/>
+
+    <rect x="575" y="88" width="18" height="18" rx="3"
+          fill="#00c9b5"/>
+
+    <rect x="680" y="35" width="18" height="18" rx="3"
+          fill="#69fff0"/>
+
+</g>
+
+<!-- ========================================================= -->
+<!-- SIGNAL                                                       -->
+<!-- ========================================================= -->
+
+<text x="18"
+      y="858"
+      font-family="Arial"
+      font-size="20"
+      fill="#111b1b">
+    Signal
+</text>
+
+<rect x="18" y="878"
+      width="964"
+      height="270"
+      rx="22"
+      fill="url(#panel)"
+      stroke="#08776d"
+      stroke-width="3"/>
+
+<text x="45" y="913"
+      font-family="monospace"
+      font-size="15"
+      font-weight="bold"
+      fill="#e5fffb">
+    Profile Signal
+</text>
+
+<text x="45" y="931"
+      font-family="monospace"
+      font-size="9"
+      fill="#76b9b1">
+    LIVE GITHUB ACCOUNT METRICS
+</text>
+
+<!-- four signal cards -->
+
+<rect x="45" y="958" width="205" height="145"
+      rx="15"
+      fill="#062a28"
+      stroke="#0b8177"/>
+
+<text x="64" y="986"
+      font-family="monospace"
+      font-size="11"
+      fill="#8ddbd3">
+    REPOS
+</text>
+
+<text x="64" y="1029"
+      font-family="monospace"
+      font-size="35"
+      font-weight="bold"
+      fill="#00d9c0">
+    15
+</text>
+
+<rect x="64" y="1064" width="160" height="7" rx="4"
+      fill="#173c3a"/>
+
+<rect x="64" y="1064" width="80" height="7" rx="4"
+      fill="#00c9b5"/>
+
+
+<rect x="267" y="958" width="205" height="145"
+      rx="15"
+      fill="#062a28"
+      stroke="#0b8177"/>
+
+<text x="286" y="986"
+      font-family="monospace"
+      font-size="11"
+      fill="#8ddbd3">
+    STARS
+</text>
+
+<text x="286" y="1029"
+      font-family="monospace"
+      font-size="35"
+      font-weight="bold"
+      fill="#a990ff">
+    0
+</text>
+
+<rect x="286" y="1064" width="160" height="7" rx="4"
+      fill="#173c3a"/>
+
+<rect x="286" y="1064" width="15" height="7" rx="4"
+      fill="#9b7dff"/>
+
+
+<rect x="489" y="958" width="205" height="145"
+      rx="15"
+      fill="#062a28"
+      stroke="#0b8177"/>
+
+<text x="508" y="986"
+      font-family="monospace"
+      font-size="11"
+      fill="#8ddbd3">
+    FOLLOWERS
+</text>
+
+<text x="508" y="1029"
+      font-family="monospace"
+      font-size="35"
+      font-weight="bold"
+      fill="#61a1ff">
+    1
+</text>
+
+<rect x="508" y="1064" width="160" height="7" rx="4"
+      fill="#173c3a"/>
+
+<rect x="508" y="1064" width="25" height="7" rx="4"
+      fill="#518eff"/>
+
+
+<rect x="711" y="958" width="205" height="145"
+      rx="15"
+      fill="#062a28"
+      stroke="#0b8177"/>
+
+<text x="730" y="986"
+      font-family="monospace"
+      font-size="11"
+      fill="#8ddbd3">
+    FOLLOWING
+</text>
+
+<text x="730" y="1029"
+      font-family="monospace"
+      font-size="35"
+      font-weight="bold"
+      fill="#69fff0">
+    2
+</text>
+
+<rect x="730" y="1064" width="160" height="7" rx="4"
+      fill="#173c3a"/>
+
+<rect x="730" y="1064" width="35" height="7" rx="4"
+      fill="#00c9b5"/>
+
+
+<!-- ========================================================= -->
+<!-- LANGUAGE STACK                                              -->
+<!-- ========================================================= -->
+
+<rect x="18" y="1185"
+      width="964" height="300"
+      rx="22"
+      fill="url(#panel)"
+      stroke="#08776d"
+      stroke-width="3"/>
+
+<text x="45" y="1220"
+      font-family="monospace"
+      font-size="15"
+      font-weight="bold"
+      fill="#e5fffb">
+    Language Stack
+</text>
+
+<text x="45" y="1238"
+      font-family="monospace"
+      font-size="9"
+      fill="#76b9b1">
+    REPOSITORY LANGUAGE BREAKDOWN
+</text>
+
+<!-- Python -->
+<text x="65" y="1280"
+      font-family="monospace"
+      font-size="11"
+      fill="#d9fffa">
+    ● Python
+</text>
+
+<rect x="210" y="1267"
+      width="680" height="12" rx="6"
+      fill="#173c3a"/>
+
+<rect x="210" y="1267"
+      width="530" height="12" rx="6"
+      fill="#ff7b00"/>
+
+<!-- JavaScript -->
+<text x="65" y="1320"
+      font-family="monospace"
+      font-size="11"
+      fill="#d9fffa">
+    ● JavaScript
+</text>
+
+<rect x="210" y="1307"
+      width="680" height="12" rx="6"
+      fill="#173c3a"/>
+
+<rect x="210" y="1307"
+      width="100" height="12" rx="6"
+      fill="#ffe45c"/>
+
+<!-- C++ -->
+<text x="65" y="1360"
+      font-family="monospace"
+      font-size="11"
+      fill="#d9fffa">
+    ● C++
+</text>
+
+<rect x="210" y="1347"
+      width="680" height="12" rx="6"
+      fill="#173c3a"/>
+
+<rect x="210" y="1347"
+      width="75" height="12" rx="6"
+      fill="#65a2ff"/>
+
+<!-- HTML -->
+<text x="65" y="1400"
+      font-family="monospace"
+      font-size="11"
+      fill="#d9fffa">
+    ● HTML
+</text>
+
+<rect x="210" y="1387"
+      width="680" height="12" rx="6"
+      fill="#173c3a"/>
+
+<rect x="210" y="1387"
+      width="55" height="12" rx="6"
+      fill="#ff5d58"/>
+
+<!-- CSS -->
+<text x="65" y="1440"
+      font-family="monospace"
+      font-size="11"
+      fill="#d9fffa">
+    ● CSS
+</text>
+
+<rect x="210" y="1427"
+      width="680" height="12" rx="6"
+      fill="#173c3a"/>
+
+<rect x="210" y="1427"
+      width="42" height="12" rx="6"
+      fill="#b57dff"/>
+
+<!-- ========================================================= -->
+<!-- PROFILE SCAN                                                -->
+<!-- ========================================================= -->
+
+<text x="18"
+      y="1535"
+      font-family="Arial"
+      font-size="20"
+      fill="#111b1b">
+    Profile scan
+</text>
+
+<rect x="18" y="1555"
+      width="964"
+      height="570"
+      rx="10"
+      fill="#061f1e"
+      stroke="#08776d"
+      stroke-width="3"/>
+
+<!-- terminal top bar -->
+
+<rect x="18" y="1555"
+      width="964"
+      height="35"
+      rx="10"
+      fill="#071918"/>
+
+<circle cx="40" cy="1573" r="6" fill="#ff5f56"/>
+<circle cx="60" cy="1573" r="6" fill="#ffbd2e"/>
+<circle cx="80" cy="1573" r="6" fill="#27c93f"/>
+
+<text x="500"
+      y="1578"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="9"
+      fill="#47736e">
+    github-profile // terminal // scan
+</text>
+
+<!-- left panel -->
+
+<rect x="35" y="1610"
+      width="425"
+      height="485"
+      rx="8"
+      fill="#062825"
+      stroke="#08776d"/>
+
+<!-- right panel -->
+
+<rect x="480" y="1610"
+      width="483"
+      height="485"
+      rx="8"
+      fill="#062825"
+      stroke="#08776d"/>
+
+<!-- ASCII art -->
+
+<text x="247"
+      y="1640"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="10"
+      fill="#57ffe9">
+    PROFILE.ASCII
+</text>
+
+<text x="247"
+      y="1675"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="9"
+      fill="#00c9b5">
+             ░░░░░
+           ░░░░░░░░░
+          ░░░░░░░░░░░
+         ░░░░░░░░░░░░
+         ░░░░░░░░░░░░
+          ░░░░░░░░░░
+           ░░░░░░░░░
+             ░░░░░
+               ░
+          ░░░░░░░░░░
+       ░░░░░░░░░░░░░░░
+      ░░░░░░░░░░░░░░░░
+     ░░░░░░░░░░░░░░░░░
+     ░░░░░░░░░░░░░░░░░
+      ░░░░░░░░░░░░░░░
+       ░░░░░░░░░░░░░
+          ░░░░░░░░
+           ░░░░░░
+            ░░
+</text>
+
+<!-- right data -->
+
+<text x="505" y="1640"
+      font-family="monospace"
+      font-size="10"
+      fill="#57ffe9">
+    SYSTEM INFORMATION
+</text>
+
+<text x="505" y="1678"
+      font-family="monospace"
+      font-size="12"
+      fill="#56b9b0">
+    user
+</text>
+
+<text x="690" y="1678"
+      font-family="monospace"
+      font-size="12"
+      fill="#d9fffa">
+    Muhammad Waleed
+</text>
+
+<text x="505" y="1712"
+      font-family="monospace"
+      font-size="12"
+      fill="#56b9b0">
+    handle
+</text>
+
+<text x="690" y="1712"
+      font-family="monospace"
+      font-size="12"
+      fill="#d9fffa">
+    waleed-khan-743726
+</text>
+
+<text x="505" y="1746"
+      font-family="monospace"
+      font-size="12"
+      fill="#56b9b0">
+    role
+</text>
+
+<text x="690" y="1746"
+      font-family="monospace"
+      font-size="12"
+      fill="#d9fffa">
+    AI Engineer
+</text>
+
+<text x="505" y="1780"
+      font-family="monospace"
+      font-size="12"
+      fill="#56b9b0">
+    repositories
+</text>
+
+<text x="690" y="1780"
+      font-family="monospace"
+      font-size="12"
+      fill="#7ffff0">
+    15
+</text>
+
+<text x="505" y="1814"
+      font-family="monospace"
+      font-size="12"
+      fill="#56b9b0">
+    followers
+</text>
+
+<text x="690" y="1814"
+      font-family="monospace"
+      font-size="12"
+      fill="#7ffff0">
+    1
+</text>
+
+<text x="505" y="1848"
+      font-family="monospace"
+      font-size="12"
+      fill="#56b9b0">
+    following
+</text>
+
+<text x="690" y="1848"
+      font-family="monospace"
+      font-size="12"
+      fill="#7ffff0">
+    2
+</text>
+
+<text x="505" y="1882"
+      font-family="monospace"
+      font-size="12"
+      fill="#56b9b0">
+    stars
+</text>
+
+<text x="690" y="1882"
+      font-family="monospace"
+      font-size="12"
+      fill="#7ffff0">
+    0
+</text>
+
+<text x="505" y="1916"
+      font-family="monospace"
+      font-size="12"
+      fill="#56b9b0">
+    domain
+</text>
+
+<text x="690" y="1916"
+      font-family="monospace"
+      font-size="12"
+      fill="#d9fffa">
+    Artificial Intelligence
+</text>
+
+<text x="505" y="1950"
+      font-family="monospace"
+      font-size="12"
+      fill="#56b9b0">
+    focus
+</text>
+
+<text x="690" y="1950"
+      font-family="monospace"
+      font-size="12"
+      fill="#d9fffa">
+    Voice AI / LLMs
+</text>
+
+<text x="505" y="1984"
+      font-family="monospace"
+      font-size="12"
+      fill="#56b9b0">
+    location
+</text>
+
+<text x="690" y="1984"
+      font-family="monospace"
+      font-size="12"
+      fill="#d9fffa">
+    Islamabad, Pakistan
+</text>
+
+<!-- terminal footer -->
+
+<text x="45" y="2110"
+      font-family="monospace"
+      font-size="9"
+      fill="#36746e">
+    $ github-profile --scan --user waleed-khan-743726
+</text>
+
+<text x="950" y="2110"
+      text-anchor="end"
+      font-family="monospace"
+      font-size="9"
+      fill="#36746e">
+    READY
+</text>
+
+</svg>
