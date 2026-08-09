@@ -1,385 +1,302 @@
-<!--
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                  MUHAMMAD WALEED — GITHUB PROFILE                           ║
-║                                                                              ║
-║  Dynamic profile README                                                     ║
-║  GitHub: waleed-khan-743726                                                  ║
-║                                                                              ║
-║  All statistics are generated dynamically from public GitHub activity.      ║
-╚══════════════════════════════════════════════════════════════════════════════╝
--->
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0B3434&height=8&section=header" width="100%"/>
-
-<br>
-
-<img
-  src="https://avatars.githubusercontent.com/u/158374961?v=4"
-  width="105"
-  style="border-radius:50%;"
-  alt="Muhammad Waleed"
-/>
-
-# `MUHAMMAD WALEED`
-
-### `AI Engineer`
-
-`Voice AI` • `LLMs` • `Deep Learning` • `Computer Vision` • `Real-Time AI` • `Automation`
-
-<br>
+<!-- ========================================================= -->
+<!-- PROFILE HEADER                                            -->
+<!-- ========================================================= -->
 
 <a href="https://github.com/waleed-khan-743726">
-<img src="https://img.shields.io/badge/GitHub-waleed--khan--743726-0B3434?style=for-the-badge&logo=github&logoColor=00F5D4&labelColor=071D1D"/>
+
+<img
+src="https://readmeforge.natrajx.in/api/header?name=MUHAMMAD+WALEED&title=AI+Engineer&tagline=Voice+AI+%E2%80%A2+LLMs+%E2%80%A2+Deep+Learning+%E2%80%A2+Real-Time+AI+Systems+%E2%80%A2+Automation&style=terminal&theme=dark&bg=%23051F1F&textColor=%23D9FFFA&width=900&height=210"
+width="100%"
+alt="Muhammad Waleed — AI Engineer"
+/>
+
 </a>
-&nbsp;
+
+<br>
+
+<!-- ========================================================= -->
+<!-- SOCIAL BAR                                                -->
+<!-- ========================================================= -->
+
+<a href="https://github.com/waleed-khan-743726">
+<img src="https://readmeforge.natrajx.in/api/button?label=GitHub&style=glass&metal=neon-green" height="28" />
+</a>
+
 <a href="https://www.linkedin.com/in/muhammad-waleed-73b414237/">
-<img src="https://img.shields.io/badge/LinkedIn-Muhammad%20Waleed-0B3434?style=for-the-badge&logo=linkedin&logoColor=00F5D4&labelColor=071D1D"/>
+<img src="https://readmeforge.natrajx.in/api/button?label=LinkedIn&style=glass&metal=neon-green" height="28" />
 </a>
-&nbsp;
+
 <a href="https://x.com/waleed_743726">
-<img src="https://img.shields.io/badge/X-@waleed__743726-0B3434?style=for-the-badge&logo=x&logoColor=00F5D4&labelColor=071D1D"/>
+<img src="https://readmeforge.natrajx.in/api/button?label=X&style=glass&metal=neon-green" height="28" />
+</a>
+
+<a href="https://www.kaggle.com/muhammadwaleed743726">
+<img src="https://readmeforge.natrajx.in/api/button?label=Kaggle&style=glass&metal=neon-green" height="28" />
 </a>
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=waleed-khan-743726&label=PROFILE%20VIEWS&color=00C9A7&style=flat-square" alt="Profile Views"/>
+<!-- ========================================================= -->
+<!-- HIGHLIGHTS                                                -->
+<!-- ========================================================= -->
 
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- PROFILE SIGNAL                                                         -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## `PROFILE SIGNAL`
+<img
+src="https://readmeforge.natrajx.in/api/banner?text=GitHub+%C2%B7+X&subtext=HIGHLIGHTS&visualStyle=glass&colors=%23051F1F,%230B5550,%23051F1F&textColor=%23D9FFFA&subtextColor=%237FFFE0&height=95&width=900&animation=none&align=left&theme=dark&border=glow"
+width="100%"
+alt="Highlights"
+/>
 
 <table>
 <tr>
 
-<td align="center" width="25%">
+<td align="center">
 
-### `REPOSITORIES`
-
-<img src="https://img.shields.io/badge/15-PUBLIC%20REPOS-00C9A7?style=for-the-badge&labelColor=071D1D"/>
-
-</td>
-
-<td align="center" width="25%">
-
-### `FOLLOWERS`
-
-<img src="https://img.shields.io/badge/1-FOLLOWER-00C9A7?style=for-the-badge&labelColor=071D1D"/>
+<img
+src="https://readmeforge.natrajx.in/api/card-glass?title=Repositories&username=waleed-khan-743726&stat=repos&glassTheme=emerald&width=260&height=110"
+alt="Repositories"
+/>
 
 </td>
 
-<td align="center" width="25%">
+<td align="center">
 
-### `FOLLOWING`
-
-<img src="https://img.shields.io/badge/2-FOLLOWING-00C9A7?style=for-the-badge&labelColor=071D1D"/>
+<img
+src="https://readmeforge.natrajx.in/api/card-glass?title=Followers&username=waleed-khan-743726&stat=followers&glassTheme=emerald&width=260&height=110"
+alt="Followers"
+/>
 
 </td>
 
-<td align="center" width="25%">
+<td align="center">
 
-### `STARS`
-
-<img src="https://img.shields.io/badge/0-STARS-00C9A7?style=for-the-badge&labelColor=071D1D"/>
+<img
+src="https://readmeforge.natrajx.in/api/card-glass?title=Stars&username=waleed-khan-743726&stat=stars&glassTheme=emerald&width=260&height=110"
+alt="Stars"
+/>
 
 </td>
 
 </tr>
 </table>
 
-</div>
+<br>
 
-> **Public GitHub snapshot:** 15 repositories · 1 follower · 2 following · 0 stars.  
-> These values reflect the public profile currently visible on GitHub.
+<!-- ========================================================= -->
+<!-- YEAR SO FAR                                               -->
+<!-- ========================================================= -->
 
----
+<img
+src="https://readmeforge.natrajx.in/api/banner?text=The+year%2C+so+far&subtext=2026+%2F%2F+PUBLIC+GITHUB+ACTIVITY&visualStyle=glass&colors=%23051F1F,%230B5550,%23051F1F&textColor=%23D9FFFA&subtextColor=%237FFFE0&height=85&width=900&animation=none&align=left&theme=dark&border=glow"
+width="100%"
+alt="The year, so far"
+/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- ABOUT                                                                    -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<br>
 
-## `01 // SYSTEM PROFILE`
+<!-- Contribution activity -->
+<a href="https://github.com/waleed-khan-743726">
+
+<img
+src="https://github-readme-activity-graph.vercel.app/graph?username=waleed-khan-743726&bg_color=071D1D&color=7FFFE0&line=00C9A7&point=7FFFE0&area=true&area_color=0B5550&hide_border=true&custom_title=Contribution%20Activity"
+width="100%"
+alt="Contribution Activity"
+/>
+
+</a>
+
+<br>
+
+<!-- ========================================================= -->
+<!-- SIGNAL                                                     -->
+<!-- ========================================================= -->
+
+<img
+src="https://readmeforge.natrajx.in/api/banner?text=Signal&subtext=REAL-TIME+PROFILE+SIGNALS&visualStyle=glass&colors=%23051F1F,%230B5550,%23051F1F&textColor=%23D9FFFA&subtextColor=%237FFFE0&height=85&width=900&animation=none&align=left&theme=dark&border=glow"
+width="100%"
+alt="Signal"
+/>
 
 <table>
 <tr>
-<td width="55%" valign="top">
 
-### `IDENTITY`
+<td align="center">
 
-```text
-┌─────────────────────────────────────────┐
-│                                         │
-│  NAME       :: Muhammad Waleed          │
-│  ROLE       :: AI Engineer              │
-│  LOCATION   :: Islamabad, Pakistan      │
-│  DOMAIN     :: Artificial Intelligence  │
-│                                         │
-└─────────────────────────────────────────┘
-MISSION
+<img
+src="https://readmeforge.natrajx.in/api/card-glass?title=Repositories&username=waleed-khan-743726&stat=repos&glassTheme=emerald&width=200&height=125"
+alt="Repository Signal"
+/>
 
-I build production-oriented intelligent systems, not just notebook experiments.
+</td>
 
-My current engineering focus includes:
+<td align="center">
 
-Real-time AI inference
-Voice AI and conversational systems
-Large Language Models
-Retrieval-Augmented Generation
-Deep Learning
-Computer Vision
-AI automation
-Low-latency pipelines
-Intelligent agents
-AI infrastructure
-</td> <td width="45%" valign="top">
-CURRENT STACK
-Python
-████████████████████
+<img
+src="https://readmeforge.natrajx.in/api/card-glass?title=Stars&username=waleed-khan-743726&stat=stars&glassTheme=blue&width=200&height=125"
+alt="Star Signal"
+/>
 
-PyTorch
-██████████████████
+</td>
 
-TensorFlow
-████████████████
+<td align="center">
 
-OpenCV
-████████████████
+<img
+src="https://readmeforge.natrajx.in/api/card-glass?title=Followers&username=waleed-khan-743726&stat=followers&glassTheme=emerald&width=200&height=125"
+alt="Follower Signal"
+/>
 
-YOLO
-███████████████
+</td>
 
-LLMs / RAG
-██████████████████
+<td align="center">
 
-Voice AI
-██████████████████
+<img
+src="https://github-readme-stats.vercel.app/api?username=waleed-khan-743726&show_icons=true&hide_title=true&hide_rank=true&hide_border=true&include_all_commits=true&count_private=false&bg_color=071D1D&text_color=B8E8DF&icon_color=00C9A7"
+width="200"
+alt="GitHub activity signal"
+/>
 
-Docker
-████████████
+</td>
 
-Cloud
-████████████
-</td> </tr> </table>
-<!-- ═══════════════════════════════════════════════════════════════════════ --> <!-- ENGINEERING DOMAINS --> <!-- ═══════════════════════════════════════════════════════════════════════ -->
-02 // ENGINEERING DOMAINS
-<table> <tr> <td width="33%" valign="top">
-01
-🎙 Voice AI
+</tr>
+</table>
 
-Real-time conversational systems
+<br>
 
-Speech-to-Text
-Text-to-Speech
-Voice cloning
-VAD
-SIP / telephony
-Low-latency audio
-AI calling systems
-</td> <td width="33%" valign="top">
-02
-🧠 Intelligence
+<!-- ========================================================= -->
+<!-- LANGUAGE STACK                                             -->
+<!-- ========================================================= -->
 
-AI / ML engineering
+<img
+src="https://readmeforge.natrajx.in/api/banner?text=Language+Stack&subtext=REPOSITORY-BASED+LANGUAGE+BREAKDOWN&visualStyle=glass&colors=%23051F1F,%230B5550,%23051F1F&textColor=%23D9FFFA&subtextColor=%237FFFE0&height=85&width=900&animation=none&align=left&theme=dark&border=glow"
+width="100%"
+alt="Language Stack"
+/>
 
-Deep Learning
-LLMs
-RAG
-AI Agents
-NLP
-Classification
-Embeddings
-Model optimization
-</td> <td width="33%" valign="top">
-03
-👁 Vision
+<br>
 
-Computer vision systems
+<img
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=waleed-khan-743726&layout=donut&langs_count=8&hide_border=true&bg_color=071D1D&title_color=D9FFFA&text_color=B8E8DF"
+width="380"
+alt="Programming Language Distribution"
+/>
 
-YOLO
-OpenCV
-Face recognition
-Object detection
-Tracking
-Image processing
-Autonomous systems
-</td> </tr> </table>
-<!-- ═══════════════════════════════════════════════════════════════════════ --> <!-- YEAR SO FAR --> <!-- ═══════════════════════════════════════════════════════════════════════ --> <div align="center">
-THE YEAR, SO FAR
-2026 // PUBLIC GITHUB ACTIVITY
-<a href="https://github.com/waleed-khan-743726">
+<br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=waleed-khan-743726&bg_color=071D1D&color=7FFFE0&line=00C9A7&point=7FFFE0&area=true&hide_border=true&custom_title=CONTRIBUTION%20ACTIVITY" width="95%" alt="GitHub Contribution Activity" />
+<table>
+<tr>
 
-</a> <br>
+<td>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=waleed-khan-743726&theme=dark&background=071D1D&border=00C9A7&stroke=00C9A7&ring=00C9A7&fire=7FFFE0&currStreakLabel=7FFFE0&sideLabels=7FFFE0&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6FAFA7&hide_border=true" width="95%" alt="GitHub Streak Statistics" />
+<img
+src="https://readmeforge.natrajx.in/api/progress-bar?skill=Python&value=90&width=420&height=30&color=%23FF7A00"
+width="420"
+alt="Python"
+/>
 
-</div>
-<!-- ═══════════════════════════════════════════════════════════════════════ --> <!-- GITHUB ANALYTICS --> <!-- ═══════════════════════════════════════════════════════════════════════ --> <div align="center">
-GITHUB ANALYTICS
-<a href="https://github.com/waleed-khan-743726">
+</td>
 
-<img src="https://github-readme-stats.vercel.app/api?username=waleed-khan-743726&show_icons=true&hide_border=true&bg_color=071D1D&title_color=7FFFE0&text_color=B8E8DF&icon_color=00C9A7&ring_color=00C9A7&include_all_commits=false" width="49%" alt="GitHub Statistics" />
+</tr>
 
-</a> <a href="https://github.com/waleed-khan-743726">
+<tr>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=waleed-khan-743726&layout=compact&langs_count=8&hide_border=true&bg_color=071D1D&title_color=7FFFE0&text_color=B8E8DF" width="49%" alt="Top Programming Languages" />
+<td>
 
-</a> </div>
-<!-- ═══════════════════════════════════════════════════════════════════════ --> <!-- LANGUAGE STACK --> <!-- ═══════════════════════════════════════════════════════════════════════ --> <div align="center">
-LANGUAGE STACK
+<img
+src="https://readmeforge.natrajx.in/api/progress-bar?skill=Machine+Learning&value=78&width=420&height=30&color=%23B78CFF"
+width="420"
+alt="Machine Learning"
+/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=waleed-khan-743726&layout=donut&langs_count=10&hide_border=true&bg_color=071D1D&title_color=7FFFE0&text_color=B8E8DF" width="430" alt="Programming Language Distribution" />
+</td>
 
-</div>
+</tr>
 
-Language percentages above are calculated from the public repositories GitHub can analyze.
-They are intentionally not manually entered, so the numbers remain tied to actual repository code.
+<tr>
 
-<!-- ═══════════════════════════════════════════════════════════════════════ --> <!-- TECH STACK --> <!-- ═══════════════════════════════════════════════════════════════════════ -->
-03 // TECHNOLOGY MATRIX
-<div align="center">
-LANGUAGES
-<img src="https://skillicons.dev/icons?i=python,cpp,java,r,sql,bash&theme=dark" alt="Programming Languages"/>
-AI / MACHINE LEARNING
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv&theme=dark" alt="AI Technologies"/>
-DATA
-<img src="https://skillicons.dev/icons?i=pandas,numpy,sklearn&theme=dark" alt="Data Technologies"/>
-INFRASTRUCTURE
-<img src="https://skillicons.dev/icons?i=docker,linux,git,github,githubactions&theme=dark" alt="Infrastructure Technologies"/>
-CLOUD / TOOLS
-<img src="https://skillicons.dev/icons?i=aws,azure,vscode,anaconda&theme=dark" alt="Cloud and Development Tools"/> </div>
-<!-- ═══════════════════════════════════════════════════════════════════════ --> <!-- FEATURED PROJECTS --> <!-- ═══════════════════════════════════════════════════════════════════════ -->
-04 // SELECTED PROJECTS
-<table> <tr> <td width="50%" valign="top">
-🎙 AI Voice Agent Systems
+<td>
 
-Real-time conversational AI infrastructure focused on:
+<img
+src="https://readmeforge.natrajx.in/api/progress-bar?skill=Computer+Vision&value=72&width=420&height=30&color=%2300C9A7"
+width="420"
+alt="Computer Vision"
+/>
 
-STT
- ↓
-VAD
- ↓
-INTENT / LLM
- ↓
-RESPONSE
- ↓
-TTS
- ↓
-TELEPHONY
+</td>
 
-Engineering focus:
+</tr>
 
-Low-latency inference
-Speech recognition
-Voice synthesis
-Voice cloning
-SIP / telephony
-Real-time audio streaming
-AI agent orchestration
-</td> <td width="50%" valign="top">
-🚁 Autonomous Aerial AI
+<tr>
 
-Computer vision and autonomous navigation systems involving:
+<td>
 
-CAMERA
-   ↓
-OBJECT / FACE DETECTION
-   ↓
-IDENTIFICATION
-   ↓
-TRACKING
-   ↓
-NAVIGATION
-   ↓
-CONTROL
+<img
+src="https://readmeforge.natrajx.in/api/progress-bar?skill=SQL&value=55&width=420&height=30&color=%235B8DEF"
+width="420"
+alt="SQL"
+/>
 
-Engineering focus:
+</td>
 
-YOLO
-OpenCV
-Face recognition
-Real-time tracking
-Autonomous navigation
-Voice control
-Drone systems
-</td> </tr> </table>
-<!-- ═══════════════════════════════════════════════════════════════════════ --> <!-- REPOSITORIES --> <!-- ═══════════════════════════════════════════════════════════════════════ -->
-05 // REPOSITORY INDEX
-<div align="center"> <a href="https://github.com/waleed-khan-743726?tab=repositories">
+</tr>
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=waleed-khan-743726&repo=Machine-Learning&theme=dark&bg_color=071D1D&title_color=7FFFE0&text_color=B8E8DF&icon_color=00C9A7&border_color=00C9A7" width="48%" alt="Machine Learning Repository" />
+<tr>
 
-</a> <a href="https://github.com/waleed-khan-743726">
+<td>
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=waleed-khan-743726&repo=AICP_Internship_Repo&theme=dark&bg_color=071D1D&title_color=7FFFE0&text_color=B8E8DF&icon_color=00C9A7&border_color=00C9A7" width="48%" alt="AICP Internship Repository" />
+<img
+src="https://readmeforge.natrajx.in/api/progress-bar?skill=HTML&value=38&width=420&height=30&color=%23FF5B5B"
+alt="HTML"
+/>
 
-</a> <br> <a href="https://github.com/waleed-khan-743726">
+</td>
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=waleed-khan-743726&repo=AppleStore_EDA&theme=dark&bg_color=071D1D&title_color=7FFFE0&text_color=B8E8DF&icon_color=00C9A7&border_color=00C9A7" width="48%" alt="Apple Store EDA Repository" />
+</tr>
 
-</a> <a href="https://github.com/waleed-khan-743726">
+</table>
 
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=waleed-khan-743726&repo=hello-R&theme=dark&bg_color=071D1D&title_color=7FFFE0&text_color=B8E8DF&icon_color=00C9A7&border_color=00C9A7" width="48%" alt="hello-R Repository" />
+<br>
 
-</a> </div>
-<!-- ═══════════════════════════════════════════════════════════════════════ --> <!-- PROFILE SCAN --> <!-- ═══════════════════════════════════════════════════════════════════════ --> <div align="center">
-PROFILE SCAN
+<!-- ========================================================= -->
+<!-- PROFILE SCAN                                               -->
+<!-- ========================================================= -->
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=waleed-khan-743726&theme=github_dark" width="95%" alt="GitHub Profile Summary" />
+<img
+src="https://readmeforge.natrajx.in/api/banner?text=Profile+scan&subtext=GITHUB+IDENTITY+%2F%2F+SYSTEM+INSPECTION&visualStyle=glass&colors=%23051F1F,%230B5550,%23051F1F&textColor=%23D9FFFA&subtextColor=%237FFFE0&height=85&width=900&animation=none&align=left&theme=dark&border=glow"
+width="100%"
+alt="Profile Scan"
+/>
 
-<br><br>
+<br>
 
-<table> <tr> <td width="50%">
+<img
+src="https://neofetch-profile.vercel.app/api?username=waleed-khan-743726&theme=dark"
+width="100%"
+alt="Muhammad Waleed GitHub Profile Scan"
+/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=waleed-khan-743726&theme=github_dark" width="100%" alt="Repositories Per Language" />
+<br>
 
-</td> <td width="50%">
+<!-- ========================================================= -->
+<!-- TERMINAL PROFILE                                          -->
+<!-- ========================================================= -->
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=waleed-khan-743726&theme=github_dark" width="100%" alt="Most Commit Language" />
+<img
+src="https://github-stats-terminal-style-five.vercel.app/api/stats?username=waleed-khan-743726&theme=tokyonight&headerStyle=retro&hostname=waleed-ai"
+width="100%"
+alt="Terminal GitHub Statistics"
+/>
 
-</td> </tr> </table> </div>
-<!-- ═══════════════════════════════════════════════════════════════════════ --> <!-- CONTRIBUTION SNAKE --> <!-- ═══════════════════════════════════════════════════════════════════════ --> <div align="center">
-ACTIVITY MATRIX
+<br>
 
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" />
+<!-- ========================================================= -->
+<!-- FOOTER                                                     -->
+<!-- ========================================================= -->
+
+<img
+src="https://readmeforge.natrajx.in/api/footer?text=BUILDING+INTELLIGENT+SYSTEMS+THAT+WORK+IN+THE+REAL+WORLD&style=terminal&theme=dark&width=900"
+width="100%"
+alt="Building intelligent systems"
+/>
 
 </div>
-<!-- ═══════════════════════════════════════════════════════════════════════ --> <!-- GITHUB TROPHIES --> <!-- ═══════════════════════════════════════════════════════════════════════ --> <div align="center">
-GITHUB ACHIEVEMENTS
-
-<img src="https://github-profile-trophy.vercel.app/?username=waleed-khan-743726&theme=darkhub&no-frame=true&no-bg=true&margin-w=10&column=6" width="95%" alt="GitHub Trophies" />
-
-</div>
-<!-- ═══════════════════════════════════════════════════════════════════════ --> <!-- CURRENT INTERESTS --> <!-- ═══════════════════════════════════════════════════════════════════════ -->
-06 // CURRENT ENGINEERING INTERESTS
-DOMAIN	FOCUS
-🎙 Voice AI	Human-like conversational systems
-🧠 LLMs	Agentic workflows, reasoning and orchestration
-📚 RAG	Retrieval pipelines and grounded generation
-⚡ Real-Time AI	Low-latency inference and streaming systems
-👁 Computer Vision	Detection, recognition and autonomous tracking
-🤖 AI Agents	Tool use, automation and intelligent workflows
-🔊 Audio AI	STT, TTS, VAD and voice cloning
-☁️ Infrastructure	Dockerized and cloud-deployed AI systems
-<!-- ═══════════════════════════════════════════════════════════════════════ --> <!-- CONNECT --> <!-- ═══════════════════════════════════════════════════════════════════════ --> <div align="center">
-07 // CONNECT
-<a href="https://github.com/waleed-khan-743726"> <img src="https://img.shields.io/badge/GitHub-0B3434?style=for-the-badge&logo=github&logoColor=00C9A7" /> </a> <a href="https://www.linkedin.com/in/muhammad-waleed-73b414237/"> <img src="https://img.shields.io/badge/LinkedIn-0B3434?style=for-the-badge&logo=linkedin&logoColor=00C9A7" /> </a> <a href="https://x.com/waleed_743726"> <img src="https://img.shields.io/badge/X-0B3434?style=for-the-badge&logo=x&logoColor=00C9A7" /> </a> <a href="https://www.kaggle.com/muhammadwaleed743726"> <img src="https://img.shields.io/badge/Kaggle-0B3434?style=for-the-badge&logo=kaggle&logoColor=00C9A7" /> </a> <a href="https://www.fiverr.com/waleed743726"> <img src="https://img.shields.io/badge/Fiverr-0B3434?style=for-the-badge&logo=fiverr&logoColor=00C9A7" /> </a>
-
-<br><br>
-
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│   BUILDING INTELLIGENT SYSTEMS THAT WORK IN THE REAL WORLD │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-<br> <img src="https://capsule-render.vercel.app/api?type=rect&color=0B3434&height=8&section=footer" width="100%"/> </div> ```
