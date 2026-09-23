@@ -182,12 +182,9 @@ Useful, measurable AI system
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=waleed-khan-743726&show_icons=true&hide_border=true&bg_color=0B1220&title_color=22D3EE&text_color=C9D4E5&icon_color=F6C85F&ring_color=22D3EE&rank_icon=github" alt="Muhammad Waleed's GitHub statistics" />
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=waleed-khan-743726&layout=compact&langs_count=6&hide_border=true&bg_color=0B1220&title_color=22D3EE&text_color=C9D4E5" alt="Most used languages" />
+<img width="100%" src="./assets/github-signal.svg" alt="Live GitHub statistics, contribution graph, language footprint, and verified milestones" />
 
-<br/>
-
-<img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=waleed-khan-743726&bg_color=0B1220&color=C9D4E5&line=22D3EE&point=F6C85F&area=true&area_color=164E63&hide_border=true" alt="Contribution activity graph" />
+<sub>Live data from GitHub · refreshed automatically every 6 hours · no third-party stats service</sub>
 
 </div>
 
@@ -195,16 +192,18 @@ Useful, measurable AI system
 
 ## Let’s build something valuable
 
-I am interested in **AI engineering roles, product collaborations, and ambitious applied-AI projects**—especially work involving voice agents, intelligent automation, computer vision, LLM systems, or real-time AI.
-
 <div align="center">
 
-### Have a role or product challenge worth solving?
+<a href="https://www.linkedin.com/in/muhammad-waleed-%E2%9A%A1%EF%B8%8Fai-engineer-73b414237/"><img width="100%" src="./assets/build-with-me.svg" alt="Build with Muhammad Waleed — AI product engineering, voice and agents, computer vision and automation" /></a>
 
-<a href="https://www.linkedin.com/in/muhammad-waleed-%E2%9A%A1%EF%B8%8Fai-engineer-73b414237/"><img src="https://img.shields.io/badge/START_A_CONVERSATION-22D3EE?style=for-the-badge&logo=linkedin&logoColor=0B1220" alt="Start a conversation on LinkedIn" /></a>
+### Choose the next move
+
+<a href="https://www.linkedin.com/in/muhammad-waleed-%E2%9A%A1%EF%B8%8Fai-engineer-73b414237/"><img src="https://img.shields.io/badge/HIRE_ME-LET'S_TALK-22D3EE?style=for-the-badge&logo=linkedin&logoColor=07101F" alt="Discuss an AI engineering role" /></a>
+<a href="https://www.fiverr.com/waleed743726?up_rollout=true"><img src="https://img.shields.io/badge/BUILD_A_PRODUCT-START_A_PROJECT-F6C85F?style=for-the-badge&logo=fiverr&logoColor=07101F" alt="Start an AI project" /></a>
+<a href="https://github.com/waleed-khan-743726?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_CODE-VIEW_PROJECTS-A78BFA?style=for-the-badge&logo=github&logoColor=white" alt="Explore GitHub projects" /></a>
 
 <br/><br/>
 
-<sub><b>AI Engineering · Voice AI · LLM Systems · Computer Vision · Intelligent Automation</b></sub>
+<sub><b>Available for AI engineering roles · product collaborations · selective freelance engagements</b></sub>
 
 </div>
