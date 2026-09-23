@@ -59,7 +59,7 @@
 <text x="56" y="624" class="sans" font-size="15" font-weight="750" fill="#f8fafc" text-anchor="start">LANGUAGE FOOTPRINT</text>
 <text x="1124" y="624" class="mono" font-size="10" font-weight="500" fill="#8394ad" text-anchor="end">PUBLIC NON-FORK REPOSITORIES</text>
 <rect x="56" y="644" width="1068" height="72" rx="18" class="card"/>
-<rect x="78" y="670" width="532" height="15" rx="7" fill="#22d3ee"/><text x="78" y="705" class="mono" font-size="9" font-weight="500" fill="#aebed3" text-anchor="start">Python 52%</text><rect x="615" y="670" width="225" height="15" rx="7" fill="#f6c85f"/><text x="615" y="705" class="mono" font-size="9" font-weight="500" fill="#aebed3" text-anchor="start">HTML 22%</text><rect x="845" y="670" width="143" height="15" rx="7" fill="#a78bfa"/><text x="845" y="705" class="mono" font-size="9" font-weight="500" fill="#aebed3" text-anchor="start">JavaScript 14%</text><rect x="993" y="670" width="81" height="15" rx="7" fill="#39e58c"/><rect x="1079" y="670" width="21" height="15" rx="7" fill="#fb7185"/>
+<rect x="78" y="670" width="957" height="15" rx="7" fill="#22d3ee"/><text x="78" y="705" class="mono" font-size="9" font-weight="500" fill="#aebed3" text-anchor="start">Jupyter Notebook 94%</text><rect x="1040" y="670" width="52" height="15" rx="7" fill="#f6c85f"/><rect x="1097" y="670" width="20" height="15" rx="7" fill="#a78bfa"/><rect x="1122" y="670" width="20" height="15" rx="7" fill="#39e58c"/><rect x="1147" y="670" width="20" height="15" rx="7" fill="#fb7185"/>
 <text x="56" y="742" class="sans" font-size="15" font-weight="750" fill="#f8fafc" text-anchor="start">GITHUB MILESTONES</text>
 <text x="1124" y="742" class="mono" font-size="10" font-weight="500" fill="#8394ad" text-anchor="end">REPOSITORY-DERIVED  //  AUTOMATICALLY VERIFIED</text>
 
@@ -83,7 +83,7 @@
     <circle cx="624" cy="784" r="9" fill="#a78bfa"/>
     <circle cx="624" cy="784" r="16" fill="none" stroke="#a78bfa" stroke-opacity=".25"/>
     <text x="646" y="790" class="sans" font-size="13" font-weight="750" fill="#f8fafc" text-anchor="start">MULTI-STACK</text>
-    <text x="616" y="842" class="sans" font-size="27" font-weight="800" fill="#a78bfa" text-anchor="start">5 LANGS</text>
+    <text x="616" y="842" class="sans" font-size="27" font-weight="800" fill="#a78bfa" text-anchor="start">6 LANGS</text>
     <text x="616" y="872" class="mono" font-size="10" font-weight="500" fill="#8394ad" text-anchor="start">MEASURED FROM PUBLIC CODE</text>
     
 
