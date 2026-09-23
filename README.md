@@ -182,9 +182,9 @@ Useful, measurable AI system
 
 <div align="center">
 
-<img width="100%" src="./assets/github-signal.svg" alt="Live GitHub statistics, contribution graph, language footprint, and verified milestones" />
+<img width="100%" src="./assets/github-signal.svg" alt="Animated live GitHub contribution pulse with daily and monthly line graphs" />
 
-<sub>Live data from GitHub · refreshed automatically every 6 hours · no third-party stats service</sub>
+<sub>Real GitHub contribution data · animated daily and monthly line graphs · refreshed automatically every hour</sub>
 
 </div>
 

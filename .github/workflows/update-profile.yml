@@ -2,7 +2,7 @@ name: Refresh live GitHub signal
 
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -26,9 +26,14 @@ jobs:
 
       - name: Generate repository-owned signal card
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: waleed-khan-743726
-        run: python3 generate_profile.py
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: |
+          if [ -z "$PROFILE_TOKEN" ]; then
+            echo "PROFILE_TOKEN is not configured; keeping the verified signed-in snapshot."
+            exit 0
+          fi
+          python3 generate_profile.py
 
       - name: Commit refreshed data
         run: |
