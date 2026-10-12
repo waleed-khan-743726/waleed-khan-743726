@@ -9,11 +9,25 @@
 <a href="https://www.kaggle.com/muhammadwaleed743726"><img src="https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" /></a>
 <img src="https://komarev.com/ghpvc/?username=waleed-khan-743726&style=for-the-badge&color=0891b2&label=PROFILE+VIEWS" alt="Profile views" />
 
+<br/><br/>
+
+![Experience](https://img.shields.io/badge/EXPERIENCE-3%2B_YEARS-22D3EE?style=flat-square&labelColor=07101F)
+![Focus](https://img.shields.io/badge/FOCUS-PRODUCTION_AI-A78BFA?style=flat-square&labelColor=07101F)
+![Speciality](https://img.shields.io/badge/SPECIALITY-REAL--TIME_SYSTEMS-F6C85F?style=flat-square&labelColor=07101F)
+![Status](https://img.shields.io/badge/STATUS-OPEN_TO_OPPORTUNITIES-39E58C?style=flat-square&labelColor=07101F)
+
 ### I turn AI ideas into reliable products.
 
 **3+ years building applied AI and data projects** across voice intelligence, computer vision, LLM workflows, machine learning, automation, and AI-backed web systems.
 
 `Islamabad, Pakistan` · `Open to global opportunities` · `Available for high-impact AI work`
+
+<br/>
+
+<a href="#selected-work">Selected work</a> ·
+<a href="#technical-leadership-map">Capabilities</a> ·
+<a href="#engineering-activity--live-github-signal">Live GitHub signal</a> ·
+<a href="#lets-build-something-valuable">Contact</a>
 
 </div>
 
@@ -178,13 +192,13 @@ Useful, measurable AI system
 
 ---
 
-## GitHub signal
+## Engineering activity — live GitHub signal
 
 <div align="center">
 
 <img width="100%" src="./assets/github-signal.svg" alt="Animated live GitHub contribution pulse with daily and monthly line graphs" />
 
-<sub>Real GitHub contribution data · animated daily and monthly line graphs · refreshed automatically every hour</sub>
+<sub>Repository-owned analytics · real GitHub contribution data · hourly GitHub Actions refresh · no third-party stats dependency</sub>
 
 </div>
 

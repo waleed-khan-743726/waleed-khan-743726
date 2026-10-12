@@ -22,6 +22,34 @@ def esc(value) -> str:
     return html.escape(str(value), quote=True)
 
 
+def save_snapshot(today: dt.date, total: int, days) -> None:
+    """Persist the last successful GitHub response as an outage fallback."""
+    SNAPSHOT.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "as_of": today.isoformat(),
+        "total": total,
+        "active": [
+            {"date": day.isoformat(), "count": item["count"]}
+            for day, item in sorted(days.items())
+            if item["count"] > 0
+        ],
+    }
+    SNAPSHOT.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+
+
+def load_snapshot():
+    snapshot = json.loads(SNAPSHOT.read_text(encoding="utf-8"))
+    days = {
+        dt.date.fromisoformat(item["date"]): {
+            "level": min(4, int(item["count"])),
+            "count": int(item["count"]),
+            "id": "",
+        }
+        for item in snapshot["active"]
+    }
+    return int(snapshot["total"]), days
+
+
 def fetch_contributions(today: dt.date):
     start = today - dt.timedelta(days=364)
     token = os.getenv("PROFILE_TOKEN", "")
@@ -72,25 +100,25 @@ def fetch_contributions(today: dt.date):
                     count = int(item["contributionCount"])
                     days[day] = {"level": min(4, count), "count": count, "id": ""}
         total = int(calendar["totalContributions"])
-    elif SNAPSHOT.exists():
-        snapshot = json.loads(SNAPSHOT.read_text(encoding="utf-8"))
-        total = int(snapshot["total"])
-        days = {
-            dt.date.fromisoformat(item["date"]): {
-                "level": min(4, int(item["count"])),
-                "count": int(item["count"]),
-                "id": "",
-            }
-            for item in snapshot["active"]
-        }
+        source = "AUTHENTICATED GITHUB DATA"
     else:
-        total, days = fetch_public_contributions(today, start)
+        try:
+            total, days = fetch_public_contributions(today, start)
+            source = "PUBLIC GITHUB DATA"
+        except Exception:
+            if not SNAPSHOT.exists():
+                raise
+            total, days = load_snapshot()
+            source = "CACHED GITHUB FALLBACK"
+
+    if source != "CACHED GITHUB FALLBACK":
+        save_snapshot(today, total, days)
 
     cursor = start
     while cursor <= today:
         days.setdefault(cursor, {"level": 0, "count": 0, "id": ""})
         cursor += dt.timedelta(days=1)
-    return start, total, days
+    return start, total, days, source
 
 
 def fetch_public_contributions(today: dt.date, start: dt.date):
@@ -208,7 +236,7 @@ def line_path(values, x, y, width, height, maximum):
 
 def generate_svg():
     today = dt.datetime.now(dt.timezone.utc).date()
-    start, total, days = fetch_contributions(today)
+    start, total, days, source = fetch_contributions(today)
     active_days, current_streak, peak_day, peak_count, last_30_total = metrics(today, days)
 
     daily_dates = [today - dt.timedelta(days=offset) for offset in reversed(range(30))]
@@ -262,7 +290,7 @@ def generate_svg():
 <rect y="754" width="1180" height="6" fill="url(#line)"/>
 
 {text(56, 52, "GITHUB CONTRIBUTION PULSE", size=26, fill="#f8fafc", weight=800)}
-{text(56, 78, "REAL DAILY ACTIVITY  //  ANIMATED  //  AUTO-REFRESHED", size=10, fill="#22d3ee", weight=750, cls="mono")}
+{text(56, 78, "REAL CONTRIBUTION DATA  //  ANIMATED  //  HOURLY SYNC", size=10, fill="#22d3ee", weight=750, cls="mono")}
 <circle cx="970" cy="48" r="7" fill="#39e58c" class="pulse"/>
 {text(988, 52, "LIVE", size=10, fill="#a7f3d0", weight=800, cls="mono")}
 {text(1124, 77, f"UPDATED {today.isoformat()} UTC", size=9, fill="#8194af", anchor="end", cls="mono")}
@@ -319,7 +347,7 @@ def generate_svg():
             f'<title>{dt.date(key[0], key[1], 1).strftime("%B %Y")} — {value} contributions</title></circle>'
         )
 
-    parts.append(text(590, 744, f"github.com/{USERNAME}  •  sourced directly from GitHub  •  refreshes automatically every hour", size=9, fill="#61738e", anchor="middle", cls="mono"))
+    parts.append(text(590, 744, f"github.com/{USERNAME}  •  {source.lower()}  •  refreshed by GitHub Actions every hour", size=9, fill="#61738e", anchor="middle", cls="mono"))
     parts.append("</svg>")
     return "".join(parts)
 
